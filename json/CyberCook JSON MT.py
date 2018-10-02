@@ -105,7 +105,7 @@ def buscarReceitas( paginas ):
     return links
 
 def gravarJson( dicionario ):
-    caminho = '/home/guilherme/Área de Trabalho/Receitas_Bot/CyberCook/glossario.json'
+    caminho = '/json/glossario.json'
 
     print( f'JSON salvo em: {caminho}\n' )
     
