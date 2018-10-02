@@ -157,7 +157,7 @@ def iniciar():
     #       receita2 : { id, nome , img_src , ingredientes[] , como_preparar[]}
     # ]}
 
-    # Vai buscar por receitas em 5 páginas no site
+    # Vai buscar por receitas em 10 páginas no site
     links = buscarReceitas( 10 )
 
     id = 0 # IDs únicos para cada receita
